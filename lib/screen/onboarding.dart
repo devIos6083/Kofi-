@@ -62,7 +62,7 @@ class Onboarding extends StatelessWidget {
                       onPressed: () {
                         Navigator.of(context).push(
                           MaterialPageRoute(
-                            builder: (ctx) => Home(),
+                            builder: (ctx) => HomeScreen(),
                           ),
                         );
                       },

@@ -74,6 +74,85 @@ class _CategorySelectorAndGridState extends State<CategorySelectorAndGrid> {
             },
           ),
         ),
+        Padding(
+          padding: EdgeInsets.symmetric(
+            vertical: 20,
+            horizontal: 20,
+          ),
+          child: SizedBox(
+            height: 140,
+            width: double.infinity,
+            child: Stack(
+              children: [
+                Container(
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(8),
+                    image: DecorationImage(
+                      image: AssetImage("img/banner.jpg"),
+                      fit: BoxFit.cover,
+                    ),
+                  ),
+                ),
+                Positioned(
+                  top: 5,
+                  left: 5,
+                  child: Stack(
+                    alignment: Alignment.center,
+                    children: [
+                      Container(
+                        decoration: BoxDecoration(
+                          color: Color(0xFFED5151),
+                          borderRadius: BorderRadius.circular(8),
+                        ),
+                        height: 30,
+                        width: 60,
+                      ),
+                      Align(
+                        alignment: Alignment.center,
+                        child: Text(
+                          "Promo",
+                          style: GoogleFonts.sora(
+                            fontSize: 14,
+                            fontWeight: FontWeight.w700,
+                            color: Colors.white,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                Positioned(
+                  top: 40,
+                  left: 30,
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        "Buy one get",
+                        style: GoogleFonts.sora(
+                          fontSize: 32,
+                          color: Colors.white,
+                          fontWeight: FontWeight.w700,
+                        ),
+                      ),
+                      SizedBox(
+                        height: 2,
+                      ),
+                      Text(
+                        "one Free",
+                        style: GoogleFonts.sora(
+                          fontSize: 32,
+                          color: Colors.white,
+                          fontWeight: FontWeight.w700,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ),
 
         // 카테고리 선택기
         Padding(
@@ -216,7 +295,7 @@ class _CategorySelectorAndGridState extends State<CategorySelectorAndGrid> {
                 Text(
                   coffee.name,
                   style: GoogleFonts.sora(
-                    color: Colors.white,
+                    color: Colors.black,
                     fontSize: 16,
                     fontWeight: FontWeight.bold,
                   ),
@@ -242,7 +321,7 @@ class _CategorySelectorAndGridState extends State<CategorySelectorAndGrid> {
                     Text(
                       '₩${coffee.price.toStringAsFixed(0)}',
                       style: GoogleFonts.sora(
-                        color: Colors.white,
+                        color: Colors.blueGrey,
                         fontSize: 14,
                         fontWeight: FontWeight.bold,
                       ),

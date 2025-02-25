@@ -46,7 +46,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		IokqZcejdyQZp3LoLGgmJ7HdhV0=
+		S0S94FuUgVjqepbAcxZud6dIg5Q=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -54,15 +54,15 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		1eW6itkESM3xxswrM2/y3pDgTlQ=
+		g4QlJTqNWkGOceKtnTmXRnO7nVY=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
 		<data>
-		fL4NillQYy/BdAEh4oQl2iTcwvQ=
+		m6sut2q10eWTiq3MUq+NKCeYCDg=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
-		LDmbJRApF8GhGozhMyz/X1iCVDc=
+		DoPzStNqAgGQd8092PuoEwdzBD8=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
 		<data>
@@ -156,6 +156,10 @@
 		<data>
 		e0Lc2tlwfYGH3bdRdEF3U6141HY=
 		</data>
+		<key>Frameworks/App.framework/flutter_assets/img/promo.jpg</key>
+		<data>
+		QMP1iKEcfuv1rJLVHNQQEBQ/9Vc=
+		</data>
 		<key>Frameworks/App.framework/flutter_assets/img/straw_blen.jpg</key>
 		<data>
 		SGYjoJNDdYDcd6eM333kcGd0Zq0=
@@ -174,7 +178,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		dZrtVBjPw1ThR+jjZWM7YtBSlus=
+		eOORrhSGnL6P66xM4gdLjc7z5GM=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -393,7 +397,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cuR1YEm+i/MwPDCqW2u1YA1rprNwrW+64NogQTtY2XU=
+			4tmeeK7pq8QwXHSuCLw3yQJO8CJg1xJT+SISeunmpLo=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -407,21 +411,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			roGK3pgyA7vMAbi+Cf7WuWdv8awqQ/JoKJeZnRpWhwQ=
+			AM5awG3MbnGu/3CULWCViVGq5TvURC0PSyxUdIEoDhs=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W7gv3ux7+a3aCYnZGcOr/2QikAQS8PX9Qe6PGTEMkXU=
+			bZka+9zh664WPyi/lIVrRPMRgXtfLT7FEqNB+OSHwLw=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qKjSALwIK3Gg22zQBg57yQuGsUvzS8kLNLAToeNCqhE=
+			4kiGYejrFEuIcTis4Hb/50Hcp5NZZt3VJgpZ4hWWLkw=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
@@ -585,6 +589,13 @@
 			6D2E2eijbH+GwsY6g2U12EyCFCFvwcYpU1+oTKeVLcU=
 			</data>
 		</dict>
+		<key>Frameworks/App.framework/flutter_assets/img/promo.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nssNOnuU0uxm3JtgxjnMrabuc1Zs+AgnrE8VpKS/abw=
+			</data>
+		</dict>
 		<key>Frameworks/App.framework/flutter_assets/img/straw_blen.jpg</key>
 		<dict>
 			<key>hash2</key>
@@ -617,7 +628,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			B2A9qvYlpBoLNLegbNsSgtHJBmWjCGwIj59ctCYGioU=
+			aPXORl85cYVKDw7dgI3Mur4dW+BehN2R3abq9IGA0sQ=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
