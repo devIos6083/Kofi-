@@ -1,10 +1,13 @@
 import 'package:coffe_shop/models/coffee_model.dart';
+import 'package:coffe_shop/screen/order.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class DetailsScreen extends StatefulWidget {
   final Coffee coffee;
-  const DetailsScreen({super.key, required this.coffee});
+  final String selectedLocation;
+  const DetailsScreen(
+      {super.key, required this.coffee, required this.selectedLocation});
 
   @override
   State<DetailsScreen> createState() => _DetailsScreenState();
@@ -71,7 +74,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
           // Coffee Image
           Container(
             width: double.infinity,
-            height: 202,
+            height: 350,
             decoration: BoxDecoration(
               image: DecorationImage(
                 image: AssetImage(widget.coffee.imageUrl),
@@ -125,7 +128,7 @@ class _DetailsScreenState extends State<DetailsScreen> {
                         ),
                         SizedBox(width: 8),
                         Text(
-                          '(${widget.coffee.participants} reviews)',
+                          '(${_isFavorite ? widget.coffee.participants + 1 : widget.coffee.participants} reviews)',
                           style: GoogleFonts.sora(
                             fontSize: 14,
                             color: Colors.grey[400],
@@ -263,8 +266,13 @@ class _DetailsScreenState extends State<DetailsScreen> {
                 GestureDetector(
                   onTap: () {
                     // 구매 로직 구현
-                    ScaffoldMessenger.of(context).showSnackBar(
-                      SnackBar(content: Text('주문이 완료되었습니다.')),
+                    Navigator.of(context).push(
+                      MaterialPageRoute(
+                        builder: (ctx) => Order(
+                          coffee: widget.coffee,
+                          selectedLocation: widget.selectedLocation,
+                        ),
+                      ),
                     );
                   },
                   child: Container(
